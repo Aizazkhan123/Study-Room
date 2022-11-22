@@ -1,0 +1,1 @@
+from.arithimatic import * # init function used to collect all function of arithimatic 
