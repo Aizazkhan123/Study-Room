@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+{% load static  %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> {%  block title  %}   {%   endblock title  %}  </title>
+
+  <link rel="stylesheet" href="{% static 'main/css/mdb.main.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/bootstrap.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/all.main.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/mdb.rtl.min.css' %}">
+  <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+  
+
+</head>
+<body class="bg-light" id="top">
+  <header class="d-print-none">
+    <div class="container text-center text-lg-left">
+      <div class="pt-4 clearfix">
+        <h1 class="site-title mb-0">Aizaz khan</h1>
+        <div class="site-nav"> 
+          <nav role="navigation">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#skills" title="Skills"><span class="menu-title">Skills</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#experience" title="Experience"><span class="menu-title">Experience</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#education" title="Education"><span class="menu-title">Education</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio" title="Portfolio"><span class="menu-title">Portfolio</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#references" title="References"><span class="menu-title">References</span></a>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#contact" title="Contact"><span class="menu-title">Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="page-content">
+    <div class="container"></div>
+<div class="resume-container">
+ <div class="shadow-1-strong bg-white my-5" id="intro">
+   <div class="bg-info text-white">
+     <div class="cover bg-image"><img src="{% static 'main/images/header-background.jpg' %}"/>
+       <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+         <div class="text-center p-5">
+           <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="{% static 'main/images/khan.jpg' %}" width="160" height="160"/></div>
+           <div class="header-bio mt-3">
+             <div data-aos="zoom-in" data-aos-delay="0">
+               <h2 class="h1">Aizaz khan</h2>
+               <p>Front-end  back-end Django fram work Developer </p>
+               <p>Pyhton  Developer and data Sciencetist </p>
+               <p>business data analysis </p>
+             </div>
+             <div class="header-social mb-3 d-print-none" data-aos="zoom-in" data-aos-delay="200">
+               <nav role="navigation">
+                 <ul class="nav justify-content-center">
+                   <li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a>
+                   </li>
+                   <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/templateflip" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a>
+                   </li>
+                   <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/templateflip" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a>
+                   </li>
+                   <li class="nav-item"><a class="nav-link" href="https://github.com/templateflip" title="Github"><i class="fab fa-github"></i><span class="menu-title sr-only">Github</span></a>
+                   </li>
+                 </ul>
+               </nav>
+             </div>
+             <div class="d-print-none"><a class="btn btn-outline-light btn-lg shadow-sm mt-1 me-3" href="{% static 'main/material-resume.pdf' %}" data-aos="fade-right" data-aos-delay="700">Download CV</a><a class="btn btn-info btn-lg shadow-sm mt-1" href="#contact" data-aos="fade-left" data-aos-delay="700">Hire Me</a></div>
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ {% include 'aboutme.html' %}
+ {% include 'skill.html' %}
+ {% include 'workexp.html' %}
+ 
+ {% include 'education.html' %}
+ {% include 'portfolio.html' %}
+ {% include 'contact.html' %}
+ {% include 'footer.html' %}
+
+
+ 
+
+   <script src="{% static 'main/js/jquery.js' %"></script>
+    <script src="{% static 'main/js/bootstrap.js' %}"></script>
+    <script src="{% static 'main/js/popper.js' %}"></script>
+    <script src="{% static 'main/js/all.main.js' %}"></script>
+    <script src="{% static 'main/js/aos.js' %}"></script>
+
+
+
+  
+
+</body>
+</html>
