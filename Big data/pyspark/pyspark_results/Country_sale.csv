@@ -1,0 +1,148 @@
+country,sum(sales)
+United States,1280494.0
+France,526745.0
+Australia,516624.0
+Mexico,416083.0
+Germany,389320.0
+China,368852.0
+India,302511.0
+United Kingdom,300040.0
+Brazil,250106.0
+Indonesia,224180.0
+Italy,189965.0
+Spain,165619.0
+El Salvador,123814.0
+Philippines,120135.0
+Cuba,116246.0
+New Zealand,106972.0
+Dominican Republic,106487.0
+Nicaragua,101232.0
+Turkey,92522.0
+Guatemala,88516.0
+Honduras,82109.0
+Iran,79132.0
+Egypt,61826.0
+South Africa,61584.0
+Colombia,59397.0
+Netherlands,59377.0
+Ukraine,56759.0
+Morocco,56332.0
+Austria,56137.0
+Russia,55601.0
+Japan,52045.0
+Nigeria,51552.0
+Iraq,50319.0
+Canada,50314.0
+Democratic Republic of the Congo,49791.0
+Saudi Arabia,49791.0
+Argentina,47783.0
+Vietnam,47572.0
+Panama,46257.0
+Thailand,41102.0
+Pakistan,38967.0
+Malaysia,35778.0
+Poland,34702.0
+Bangladesh,32763.0
+Chile,30015.0
+Belgium,29100.0
+Singapore,28693.0
+Romania,27585.0
+South Korea,27418.0
+Myanmar (Burma),26341.0
+Venezuela,25533.0
+Algeria,25407.0
+Sweden,23420.0
+Tanzania,18859.0
+Angola,18247.0
+Peru,17834.0
+Ghana,16333.0
+Senegal,15911.0
+Ireland,15609.0
+Cote d'Ivoire,15334.0
+Zambia,15248.0
+Sudan,15102.0
+Kenya,14972.0
+Mozambique,14394.0
+Israel,13912.0
+Switzerland,13641.0
+Norway,13445.0
+Finland,13306.0
+Cameroon,13017.0
+Bulgaria,11280.0
+Madagascar,11098.0
+Afghanistan,10891.0
+Haiti,9945.0
+Ecuador,9844.0
+Czech Republic,9579.0
+Portugal,9106.0
+Denmark,8643.0
+Cambodia,8371.0
+Belarus,7842.0
+Bolivia,7760.0
+Hungary,7185.0
+Jordan,6271.0
+Libya,5338.0
+Barbados,5337.0
+Rwanda,5197.0
+Moldova,5139.0
+Kyrgyzstan,5103.0
+Uzbekistan,5090.0
+Niger,4812.0
+Trinidad and Tobago,4804.0
+Mali,4656.0
+Kazakhstan,4602.0
+Croatia,4463.0
+Mongolia,4420.0
+Somalia,4351.0
+Togo,4150.0
+Jamaica,4089.0
+Zimbabwe,3767.0
+Syria,3739.0
+Benin,3662.0
+Azerbaijan,3572.0
+Georgia,3528.0
+Nepal,3522.0
+Guinea,3498.0
+Lithuania,3379.0
+Martinique,3071.0
+Hong Kong,2952.0
+Uruguay,2811.0
+Lebanon,2797.0
+Bosnia and Herzegovina,2600.0
+Paraguay,2591.0
+Yemen,2464.0
+Sierra Leone,2449.0
+Mauritania,2449.0
+Djibouti,2394.0
+Taiwan,2379.0
+Albania,2269.0
+Liberia,2132.0
+Guinea-Bissau,2065.0
+Turkmenistan,2029.0
+Qatar,1901.0
+Papua New Guinea,1786.0
+Tunisia,1762.0
+Gabon,1752.0
+Estonia,1709.0
+Uganda,1625.0
+Guadeloupe,1462.0
+Namibia,1435.0
+Central African Republic,1376.0
+Republic of the Congo,1053.0
+South Sudan,1045.0
+Slovakia,866.0
+Sri Lanka,852.0
+Ethiopia,850.0
+Montenegro,770.0
+United Arab Emirates,742.0
+Bahrain,669.0
+Lesotho,368.0
+Slovenia,289.0
+Swaziland,288.0
+Burundi,268.0
+Tajikistan,242.0
+Macedonia,210.0
+Eritrea,188.0
+Armenia,156.0
+Equatorial Guinea,150.0
+Chad,28.0

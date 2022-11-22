@@ -1,0 +1,50 @@
+state,sum(sales)
+California,263495.0
+New York,151943.0
+Texas,118199.0
+Pennsylvania,68656.0
+Washington,62279.0
+Illinois,59009.0
+Ohio,50987.0
+Florida,46588.0
+Michigan,39783.0
+North Carolina,31046.0
+Virginia,29099.0
+Arizona,28996.0
+Colorado,24095.0
+Kentucky,23064.0
+Georgia,21849.0
+Indiana,20580.0
+Massachusetts,19963.0
+Tennessee,19411.0
+Wisconsin,17954.0
+Oregon,15795.0
+Maryland,15398.0
+New Jersey,15010.0
+Minnesota,12548.0
+Delaware,11310.0
+Connecticut,11142.0
+Oklahoma,10577.0
+Alabama,9663.0
+Arkansas,8633.0
+Mississippi,8301.0
+Rhode Island,8224.0
+Missouri,7965.0
+South Carolina,6297.0
+Louisiana,6048.0
+New Mexico,4779.0
+Utah,4242.0
+New Hampshire,3991.0
+Nevada,3906.0
+Nebraska,3630.0
+Idaho,3143.0
+Kansas,2916.0
+Iowa,1924.0
+Vermont,1665.0
+Montana,1457.0
+South Dakota,1317.0
+Maine,1270.0
+West Virginia,1209.0
+North Dakota,920.0
+District of Columbia,218.0
+Wyoming,
